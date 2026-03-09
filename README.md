@@ -1,4 +1,4 @@
-#📌 Project Overview
+# 📌 Project Overview
 
 This project demonstrates an automated Linux Patch Management System using a Bash Script.
 It allows a system administrator to update and patch multiple CentOS servers automatically from a single admin machine using SSH-based automation.
@@ -7,8 +7,8 @@ The goal of this project is to simplify patch deployment, reduce manual effort, 
 
 ---
 
-#🎯 Objectives
-
+# 🎯 Objectives
+ 
 - Automate Linux patch updates across multiple servers
 - Use Bash scripting for remote system administration
 - Implement SSH-based secure communication
@@ -17,7 +17,7 @@ The goal of this project is to simplify patch deployment, reduce manual effort, 
 
 ---
 
-#🖥️ System Architecture
+# 🖥️ System Architecture
 
 Admin Server executes the patch script and connects to multiple client servers via SSH.
 
@@ -35,7 +35,7 @@ Admin Server executes the patch script and connects to multiple client servers v
 
 ---
 
-#⚙️ Technologies Used
+# ⚙️ Technologies Used
 
 - Linux (CentOS 7)
 - Bash Scripting
@@ -45,7 +45,7 @@ Admin Server executes the patch script and connects to multiple client servers v
 
 ---
 
-📋 Project Requirements
+# 📋 Project Requirements
 
 Minimum setup required:
 
@@ -57,7 +57,7 @@ SSH| Enabled on all servers
 
 ---
 
-#🔑 Step 1: Configure SSH Passwordless Authentication
+# 🔑 Step 1: Configure SSH Passwordless Authentication
 
 Generate SSH key on the admin machine:
 
@@ -77,7 +77,7 @@ If login happens without password, the configuration is successful.
 
 ---
 
-#📂 Step 2: Create Server List
+# 📂 Step 2: Create Server List
 
 Create a file that stores all target server IP addresses.
 
@@ -91,7 +91,7 @@ Example:
 
 ---
 
-#🧾 Step 3: Create Patch Management Script
+# 🧾 Step 3: Create Patch Management Script
 
 Create a Bash script:
 
@@ -119,13 +119,13 @@ echo "All servers patched successfully"
 
 ---
 
-#🔐 Step 4: Make Script Executable
+# 🔐 Step 4: Make Script Executable
 
 chmod +x patch_management.sh
 
 ---
 
-#▶️ Step 5: Run the Patch Script
+# ▶️ Step 5: Run the Patch Script
 
 Execute the script:
 
@@ -144,7 +144,7 @@ All servers patched successfully
 
 ---
 
-#🔍 Verification
+# 🔍 Verification
 
 Check if updates are completed:
 
@@ -158,7 +158,7 @@ uname -r
 
 ---
 
-#📊 Benefits of This Project
+# 📊 Benefits of This Project
 
 - Automates server patching
 - Reduces administrative workload
@@ -168,7 +168,7 @@ uname -r
 
 ---
 
-#🚀 Future Improvements
+# 🚀 Future Improvements
 
 Possible enhancements include:
 
@@ -180,7 +180,7 @@ Possible enhancements include:
 
 ---
 
-#📚 Learning Outcomes
+# 📚 Learning Outcomes
 
 Through this project you will learn:
 
@@ -192,6 +192,6 @@ Through this project you will learn:
 
 ---
 
-#👨‍💻 Author
+# 👨‍💻 Author
 
 Shikhar Shukla
