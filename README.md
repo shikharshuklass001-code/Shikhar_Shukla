@@ -12,7 +12,7 @@ I specialize in managing Linux infrastructure, automating operational tasks, and
 * 🖥️ System Engineer at **TVS Credit Services Limited**
 * 🐧 Passionate about **Linux System Administration**
 * ⚙️ Interested in **Infrastructure Automation & DevOps**
-* 🔧 Experienced in **ServiceDesk ,server management, patching, and troubleshooting**
+* 🔧 Experienced in **serviceDesk ,server management, patching, and troubleshooting**
 * 📚 Continuously learning modern infrastructure technologies
 
 ---
